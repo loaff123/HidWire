@@ -14,24 +14,29 @@ compatibility. See [the supported contract](docs/contract.md).
 
 Python 3.11 or newer. The command-line file reader requires **Linux with procfs**;
 it refuses unsupported file-access capabilities rather than falling back to an
-unsafe reader. Release verification ran on Linux with Python 3.12.14. Other
-Python versions and operating systems were not exercised for this release.
-The included Linux CI configuration targets Python 3.11–3.15; hosted runs have
-not been performed, so the matrix is not additional compatibility evidence. The package uses only
+unsafe reader. The first [hosted verification run](https://github.com/loaff123/HidWire/actions/runs/39195924690)
+passed on Linux x86_64 (`ubuntu-24.04`) with Python 3.11–3.15 on 19 October 2026.
+Each version passed 183 source tests and 183 installed-wheel tests outside the
+checkout; Python 3.12 also detected all 14 targeted mutations. This is evidence
+for the tested scalar contract, not general device or operating-system
+compatibility. No Windows or macOS support is claimed. The package uses only
 the Python standard library at runtime.
 
-Install the supplied wheel in a virtual environment:
+Install from this source repository in a virtual environment:
 
 ```sh
+git clone https://github.com/loaff123/HidWire.git
+cd HidWire
 python -m venv .venv
-.venv/bin/python -m pip install --no-index hidwire-0.1.0a1-py3-none-any.whl
+.venv/bin/python -m pip install --no-deps .
 .venv/bin/hidwire --help
 ```
 
-The wheel contains the library, CLI and MIT license. Examples, fixtures, tests
-and documentation are in the source ZIP and source distribution. Commands below
-run from an extracted source directory; use `PYTHONPATH=src python -m hidwire`
-in place of `hidwire` without installing.
+This repository is a source-only publication; it does not publish packages to
+PyPI or attach prebuilt release binaries. The installation command obtains its
+build backend from PyPI. For a fully offline review, run directly from the
+checkout with `PYTHONPATH=src python -m hidwire` in place of `hidwire`.
+Examples, fixtures, tests and documentation are included in the checkout.
 
 ## Compare two descriptors
 

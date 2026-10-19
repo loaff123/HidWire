@@ -96,16 +96,29 @@ Install the exact hash-pinned test dependencies as described in the README,
 then run `PYTHONPATH=src python -m unittest discover -v`. Missing or wrong oracle
 versions fail rather than skip. The source manifest records SHA-256 for each
 shipped source file except the manifest itself. The release manifest binds the
-wheel, source distribution and source ZIP. Generated package metadata in a source
-distribution is additional to the source manifest.
+wheel, source distribution and source ZIP of the separately reviewed candidate.
+This GitHub publication contains source files only. Documentation updates after
+publication refresh `SOURCE_MANIFEST.json`; they do not rewrite the original
+candidate archives or their release manifest. Generated package metadata in a
+source distribution is additional to the source manifest.
 
 ## Continuous integration configuration
 
 The included `.github/workflows/tests.yml` targets Linux x86_64 on
-`ubuntu-24.04` with Python 3.11, 3.12, 3.13, 3.14 and 3.15. This is an authored
-configuration, **not a completed hosted test run**. Local release evidence remains
-Linux/Python 3.12.14. Future hosted failures must be investigated rather than
-treated as supported-version passes. No Windows or macOS support is claimed.
+`ubuntu-24.04` with Python 3.11, 3.12, 3.13, 3.14 and 3.15. The first
+[hosted run](https://github.com/loaff123/HidWire/actions/runs/39195924690) completed
+successfully on 19 October 2026 for source commit
+[`f53be3e42249c28dbcb235ed6b6a71b6f9a63b27`](https://github.com/loaff123/HidWire/commit/f53be3e42249c28dbcb235ed6b6a71b6f9a63b27).
+All five jobs passed 183 source tests and 183 installed-wheel tests each, with no
+test failures or skips. The Python 3.12 job additionally passed both clean-core
+baselines and detected all six parser and eight comparison/decoder mutations.
+The mutation step is intentionally not run in the other four matrix jobs.
+
+The original local candidate evidence remains Linux/Python 3.12.14; the hosted
+run adds the five tested Python versions on the stated Linux runner. Neither
+result establishes general hardware, firmware, host or USB/HID compatibility.
+Future hosted failures must be investigated rather than treated as
+supported-version passes. No Windows or macOS support is claimed.
 
 Each matrix job runs the source suite, builds a wheel and sdist, installs the
 wheel without runtime dependencies, and copies only tests/fixtures/examples
