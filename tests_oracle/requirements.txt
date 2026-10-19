@@ -1,0 +1,4 @@
+# Independent oracle only. Never a product runtime dependency.
+# Install with --no-index --no-deps --require-hashes --find-links <pinned-wheels>.
+hid-tools==0.12 --hash=sha256:37e56369ac88d0b151f7529a77b53bac2f0dbdc2d0845a5d261b22ff0a524680
+parse==1.22.3 --hash=sha256:2cd33a301b5a4b400ee79952f42364fe486e5f10701fbf819fbbab1eab478139

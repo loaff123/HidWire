@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "origin": "Pinned public-source descriptors; no captured device traffic",
+  "sources": [
+    {
+      "repository": "adafruit/circuitpython",
+      "path": "shared-module/usb_hid/report_descriptors.c",
+      "commit": "dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91",
+      "blob_sha": "fe629153c782fb6230bc0a43bd2b3f0298b8fab9",
+      "local_name": "circuitpython-report-descriptors.c",
+      "source_url": "https://github.com/adafruit/circuitpython/blob/dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91/shared-module/usb_hid/report_descriptors.c",
+      "sha256": "7c7fdd1836617e2e090c3b98527e4a5081dfcef6c88f2d802f01eff2dad2f613",
+      "retrieved_sha256": "af02c1889de1d1a0e0f2bb69c985dad6eab1a81dd7ebf47970dcf22fb80769ef",
+      "retrieval_normalization": "Remove exactly one extra trailing LF to recover pinned original Git blob.",
+      "bundled_path": "sources/circuitpython-report-descriptors.c"
+    },
+    {
+      "repository": "adafruit/circuitpython",
+      "path": "LICENSE",
+      "commit": "dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91",
+      "blob_sha": "2b332548d8096ec53766d1819c39e6831a8c6eb3",
+      "local_name": "LICENSE-CircuitPython",
+      "source_url": "https://github.com/adafruit/circuitpython/blob/dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91/LICENSE",
+      "sha256": "df3a94a60cdc7970f3f26d12c3aae020d02b8e7c16326e50f86bb58d53658072",
+      "retrieved_sha256": "c8f514d8f350f39ccbf092a3a2b4f516049791f65e378d11dca2b73fa1371d4b",
+      "retrieval_normalization": "Remove exactly one extra trailing LF to recover pinned original Git blob.",
+      "bundled_path": "licenses/LICENSE-CircuitPython"
+    },
+    {
+      "repository": "microsoft/hidtools",
+      "path": "README.md",
+      "commit": "3e57f79e9aa248ea4e2a0e0d3b46d35964f2a8fc",
+      "blob_sha": "c715bc71cf159212f9861b1647f88ae80496ac67",
+      "local_name": "waratah-readme.md",
+      "source_url": "https://github.com/microsoft/hidtools/blob/3e57f79e9aa248ea4e2a0e0d3b46d35964f2a8fc/README.md",
+      "sha256": "b97d6aea3c3053bad08f48179d6eb2989ded8cb87305603c938fc399d2bbb06f",
+      "retrieved_sha256": "c6b98d667db000fc459065c82bee4a3ff44828ce4f7b7857e0859b91e43d4a3e",
+      "retrieval_normalization": "Remove exactly one extra trailing LF to recover pinned original Git blob.",
+      "bundled_path": "sources/waratah-readme.md"
+    },
+    {
+      "repository": "microsoft/hidtools",
+      "path": "LICENSE",
+      "commit": "3e57f79e9aa248ea4e2a0e0d3b46d35964f2a8fc",
+      "blob_sha": "331750f62526ab63a5c0ce57e47edc6827eabf63",
+      "local_name": "LICENSE-Microsoft-HidTools",
+      "source_url": "https://github.com/microsoft/hidtools/blob/3e57f79e9aa248ea4e2a0e0d3b46d35964f2a8fc/LICENSE",
+      "sha256": "c075a7fdbcff0157cf50a2c2b54c7190e36e0215ec5b9145988fdd1f9efb869b",
+      "retrieved_sha256": "78fa0f973b1680acd2af5591450aa76fc44a7f6343099679fddb00b9a71f222e",
+      "retrieval_normalization": "Remove exactly one extra trailing LF to recover pinned original Git blob.",
+      "bundled_path": "licenses/LICENSE-Microsoft-HidTools"
+    }
+  ],
+  "fixtures": [
+    {
+      "name": "keyboard_report_descriptor",
+      "path": "real/circuitpython-keyboard.bin",
+      "byte_length": 67,
+      "sha256": "17e28792f7b3c412bd2b49fdb80caa8c410457cfe0dd5be150e893c26e17c550",
+      "source_url": "https://github.com/adafruit/circuitpython/blob/dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91/shared-module/usb_hid/report_descriptors.c",
+      "source_commit": "dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91",
+      "source_blob_sha1": "fe629153c782fb6230bc0a43bd2b3f0298b8fab9",
+      "source_path": "sources/circuitpython-report-descriptors.c",
+      "source_symbol": "keyboard_report_descriptor",
+      "license": "MIT",
+      "license_path": "licenses/LICENSE-CircuitPython",
+      "scope": "Data Array input intentionally unsupported"
+    },
+    {
+      "name": "mouse_report_descriptor",
+      "path": "real/circuitpython-mouse.bin",
+      "byte_length": 64,
+      "sha256": "8641a1658bc9b779a7d69166f5d4c9d2992101fc6085711868e72b8743015f8b",
+      "source_url": "https://github.com/adafruit/circuitpython/blob/dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91/shared-module/usb_hid/report_descriptors.c",
+      "source_commit": "dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91",
+      "source_blob_sha1": "fe629153c782fb6230bc0a43bd2b3f0298b8fab9",
+      "source_path": "sources/circuitpython-report-descriptors.c",
+      "source_symbol": "mouse_report_descriptor",
+      "license": "MIT",
+      "license_path": "licenses/LICENSE-CircuitPython",
+      "scope": "Supported scalar input"
+    },
+    {
+      "name": "consumer_control_report_descriptor",
+      "path": "real/circuitpython-consumer-control.bin",
+      "byte_length": 25,
+      "sha256": "644862deff2b1fd2af03e6f137b1fa43d7dd0ce8df15084b30bde22607f4a657",
+      "source_url": "https://github.com/adafruit/circuitpython/blob/dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91/shared-module/usb_hid/report_descriptors.c",
+      "source_commit": "dcad81e0fa2ccfc30cc7d872ecbbe8f7f2cc5a91",
+      "source_blob_sha1": "fe629153c782fb6230bc0a43bd2b3f0298b8fab9",
+      "source_path": "sources/circuitpython-report-descriptors.c",
+      "source_symbol": "consumer_control_report_descriptor",
+      "license": "MIT",
+      "license_path": "licenses/LICENSE-CircuitPython",
+      "scope": "Data Array input intentionally unsupported"
+    },
+    {
+      "name": "waratah_readme_mouse",
+      "path": "real/waratah-mouse.bin",
+      "byte_length": 50,
+      "sha256": "630b3cebc8cc2db05afc886a7ea39cad9af2fd6a0c5c94ebc237233f44ee5a82",
+      "source_url": "https://github.com/microsoft/hidtools/blob/3e57f79e9aa248ea4e2a0e0d3b46d35964f2a8fc/README.md",
+      "source_commit": "3e57f79e9aa248ea4e2a0e0d3b46d35964f2a8fc",
+      "source_blob_sha1": "c715bc71cf159212f9861b1647f88ae80496ac67",
+      "source_path": "sources/waratah-readme.md",
+      "source_symbol": "hidReportDescriptor",
+      "license": "MIT",
+      "license_path": "licenses/LICENSE-Microsoft-HidTools",
+      "scope": "Supported scalar input"
+    }
+  ]
+}

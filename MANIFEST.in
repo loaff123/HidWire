@@ -1,0 +1,10 @@
+include LICENSE README.md pyproject.toml MANIFEST.in SOURCE_MANIFEST.json
+include docs/contract.md docs/usage.md docs/proof.md docs/verification.md docs/oracle-notes.md
+include .github/workflows/tests.yml
+recursive-include src *.py
+recursive-include tests *.py
+recursive-include tests_oracle *.py requirements.txt
+recursive-include fixtures *.bin *.json *.md *.c LICENSE-*
+recursive-include examples *.hex *.json *.md
+recursive-include scripts *.py
+global-exclude __pycache__ *.pyc *.pyo .DS_Store

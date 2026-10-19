@@ -1,0 +1,1009 @@
+{
+  "contract_version": "1",
+  "coverage": {
+    "new": [
+      {
+        "field_count": 8,
+        "payload_bits": 32,
+        "report": {
+          "kind": "input",
+          "report_id": 2
+        },
+        "selected": true,
+        "sources": [
+          {
+            "globals": [
+              [
+                "logical_max",
+                {
+                  "length": 2,
+                  "offset": 20
+                }
+              ],
+              [
+                "logical_min",
+                {
+                  "length": 2,
+                  "offset": 18
+                }
+              ],
+              [
+                "report_count",
+                {
+                  "length": 2,
+                  "offset": 22
+                }
+              ],
+              [
+                "report_id",
+                {
+                  "length": 2,
+                  "offset": 10
+                }
+              ],
+              [
+                "report_size",
+                {
+                  "length": 2,
+                  "offset": 24
+                }
+              ],
+              [
+                "usage_page",
+                {
+                  "length": 2,
+                  "offset": 12
+                }
+              ]
+            ],
+            "main": {
+              "length": 2,
+              "offset": 26
+            },
+            "usages": [
+              {
+                "length": 2,
+                "offset": 14
+              },
+              {
+                "length": 2,
+                "offset": 16
+              }
+            ]
+          },
+          {
+            "globals": [
+              [
+                "logical_max",
+                {
+                  "length": 2,
+                  "offset": 20
+                }
+              ],
+              [
+                "logical_min",
+                {
+                  "length": 2,
+                  "offset": 18
+                }
+              ],
+              [
+                "report_count",
+                {
+                  "length": 2,
+                  "offset": 28
+                }
+              ],
+              [
+                "report_id",
+                {
+                  "length": 2,
+                  "offset": 10
+                }
+              ],
+              [
+                "report_size",
+                {
+                  "length": 2,
+                  "offset": 30
+                }
+              ],
+              [
+                "usage_page",
+                {
+                  "length": 2,
+                  "offset": 12
+                }
+              ]
+            ],
+            "main": {
+              "length": 2,
+              "offset": 32
+            },
+            "usages": []
+          },
+          {
+            "globals": [
+              [
+                "logical_max",
+                {
+                  "length": 2,
+                  "offset": 42
+                }
+              ],
+              [
+                "logical_min",
+                {
+                  "length": 2,
+                  "offset": 40
+                }
+              ],
+              [
+                "report_count",
+                {
+                  "length": 2,
+                  "offset": 46
+                }
+              ],
+              [
+                "report_id",
+                {
+                  "length": 2,
+                  "offset": 10
+                }
+              ],
+              [
+                "report_size",
+                {
+                  "length": 2,
+                  "offset": 44
+                }
+              ],
+              [
+                "usage_page",
+                {
+                  "length": 2,
+                  "offset": 34
+                }
+              ]
+            ],
+            "main": {
+              "length": 2,
+              "offset": 48
+            },
+            "usages": [
+              {
+                "length": 2,
+                "offset": 36
+              },
+              {
+                "length": 2,
+                "offset": 38
+              }
+            ]
+          },
+          {
+            "globals": [
+              [
+                "logical_max",
+                {
+                  "length": 2,
+                  "offset": 54
+                }
+              ],
+              [
+                "logical_min",
+                {
+                  "length": 2,
+                  "offset": 52
+                }
+              ],
+              [
+                "report_count",
+                {
+                  "length": 2,
+                  "offset": 58
+                }
+              ],
+              [
+                "report_id",
+                {
+                  "length": 2,
+                  "offset": 10
+                }
+              ],
+              [
+                "report_size",
+                {
+                  "length": 2,
+                  "offset": 56
+                }
+              ],
+              [
+                "usage_page",
+                {
+                  "length": 2,
+                  "offset": 34
+                }
+              ]
+            ],
+            "main": {
+              "length": 2,
+              "offset": 60
+            },
+            "usages": [
+              {
+                "length": 2,
+                "offset": 50
+              }
+            ]
+          }
+        ],
+        "status": "supported",
+        "wire_bytes": 5
+      }
+    ],
+    "old": [
+      {
+        "field_count": 8,
+        "payload_bits": 32,
+        "report": {
+          "kind": "input",
+          "report_id": 2
+        },
+        "selected": true,
+        "sources": [
+          {
+            "globals": [
+              [
+                "logical_max",
+                {
+                  "length": 2,
+                  "offset": 20
+                }
+              ],
+              [
+                "logical_min",
+                {
+                  "length": 2,
+                  "offset": 18
+                }
+              ],
+              [
+                "report_count",
+                {
+                  "length": 2,
+                  "offset": 22
+                }
+              ],
+              [
+                "report_id",
+                {
+                  "length": 2,
+                  "offset": 10
+                }
+              ],
+              [
+                "report_size",
+                {
+                  "length": 2,
+                  "offset": 24
+                }
+              ],
+              [
+                "usage_page",
+                {
+                  "length": 2,
+                  "offset": 12
+                }
+              ]
+            ],
+            "main": {
+              "length": 2,
+              "offset": 26
+            },
+            "usages": [
+              {
+                "length": 2,
+                "offset": 14
+              },
+              {
+                "length": 2,
+                "offset": 16
+              }
+            ]
+          },
+          {
+            "globals": [
+              [
+                "logical_max",
+                {
+                  "length": 2,
+                  "offset": 20
+                }
+              ],
+              [
+                "logical_min",
+                {
+                  "length": 2,
+                  "offset": 18
+                }
+              ],
+              [
+                "report_count",
+                {
+                  "length": 2,
+                  "offset": 28
+                }
+              ],
+              [
+                "report_id",
+                {
+                  "length": 2,
+                  "offset": 10
+                }
+              ],
+              [
+                "report_size",
+                {
+                  "length": 2,
+                  "offset": 30
+                }
+              ],
+              [
+                "usage_page",
+                {
+                  "length": 2,
+                  "offset": 12
+                }
+              ]
+            ],
+            "main": {
+              "length": 2,
+              "offset": 32
+            },
+            "usages": []
+          },
+          {
+            "globals": [
+              [
+                "logical_max",
+                {
+                  "length": 2,
+                  "offset": 42
+                }
+              ],
+              [
+                "logical_min",
+                {
+                  "length": 2,
+                  "offset": 40
+                }
+              ],
+              [
+                "report_count",
+                {
+                  "length": 2,
+                  "offset": 46
+                }
+              ],
+              [
+                "report_id",
+                {
+                  "length": 2,
+                  "offset": 10
+                }
+              ],
+              [
+                "report_size",
+                {
+                  "length": 2,
+                  "offset": 44
+                }
+              ],
+              [
+                "usage_page",
+                {
+                  "length": 2,
+                  "offset": 34
+                }
+              ]
+            ],
+            "main": {
+              "length": 2,
+              "offset": 48
+            },
+            "usages": [
+              {
+                "length": 2,
+                "offset": 36
+              },
+              {
+                "length": 2,
+                "offset": 38
+              }
+            ]
+          },
+          {
+            "globals": [
+              [
+                "logical_max",
+                {
+                  "length": 2,
+                  "offset": 54
+                }
+              ],
+              [
+                "logical_min",
+                {
+                  "length": 2,
+                  "offset": 52
+                }
+              ],
+              [
+                "report_count",
+                {
+                  "length": 2,
+                  "offset": 58
+                }
+              ],
+              [
+                "report_id",
+                {
+                  "length": 2,
+                  "offset": 10
+                }
+              ],
+              [
+                "report_size",
+                {
+                  "length": 2,
+                  "offset": 56
+                }
+              ],
+              [
+                "usage_page",
+                {
+                  "length": 2,
+                  "offset": 34
+                }
+              ]
+            ],
+            "main": {
+              "length": 2,
+              "offset": 60
+            },
+            "usages": [
+              {
+                "length": 2,
+                "offset": 50
+              }
+            ]
+          }
+        ],
+        "status": "supported",
+        "wire_bytes": 5
+      }
+    ]
+  },
+  "diagnostics": {
+    "new": [],
+    "old": []
+  },
+  "differences": [
+    {
+      "component": "coefficients",
+      "field_key": {
+        "page": 1,
+        "path": [
+          {
+            "kind": 1,
+            "page": 1,
+            "usage": 2
+          },
+          {
+            "kind": 0,
+            "page": 1,
+            "usage": 1
+          }
+        ],
+        "report_key": {
+          "kind": "input",
+          "report_id": 2
+        },
+        "usage": 48
+      },
+      "kind": "raw_value",
+      "new": [
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          21,
+          32
+        ],
+        [
+          22,
+          64
+        ],
+        [
+          23,
+          -128
+        ]
+      ],
+      "new_report_sources": [],
+      "new_sources": {
+        "globals": [
+          [
+            "logical_max",
+            {
+              "length": 2,
+              "offset": 42
+            }
+          ],
+          [
+            "logical_min",
+            {
+              "length": 2,
+              "offset": 40
+            }
+          ],
+          [
+            "report_count",
+            {
+              "length": 2,
+              "offset": 46
+            }
+          ],
+          [
+            "report_id",
+            {
+              "length": 2,
+              "offset": 10
+            }
+          ],
+          [
+            "report_size",
+            {
+              "length": 2,
+              "offset": 44
+            }
+          ],
+          [
+            "usage_page",
+            {
+              "length": 2,
+              "offset": 34
+            }
+          ]
+        ],
+        "main": {
+          "length": 2,
+          "offset": 48
+        },
+        "usages": [
+          {
+            "length": 2,
+            "offset": 38
+          }
+        ]
+      },
+      "old": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          13,
+          32
+        ],
+        [
+          14,
+          64
+        ],
+        [
+          15,
+          -128
+        ]
+      ],
+      "old_report_sources": [],
+      "old_sources": {
+        "globals": [
+          [
+            "logical_max",
+            {
+              "length": 2,
+              "offset": 42
+            }
+          ],
+          [
+            "logical_min",
+            {
+              "length": 2,
+              "offset": 40
+            }
+          ],
+          [
+            "report_count",
+            {
+              "length": 2,
+              "offset": 46
+            }
+          ],
+          [
+            "report_id",
+            {
+              "length": 2,
+              "offset": 10
+            }
+          ],
+          [
+            "report_size",
+            {
+              "length": 2,
+              "offset": 44
+            }
+          ],
+          [
+            "usage_page",
+            {
+              "length": 2,
+              "offset": 34
+            }
+          ]
+        ],
+        "main": {
+          "length": 2,
+          "offset": 48
+        },
+        "usages": [
+          {
+            "length": 2,
+            "offset": 36
+          }
+        ]
+      },
+      "report_key": {
+        "kind": "input",
+        "report_id": 2
+      }
+    },
+    {
+      "component": "coefficients",
+      "field_key": {
+        "page": 1,
+        "path": [
+          {
+            "kind": 1,
+            "page": 1,
+            "usage": 2
+          },
+          {
+            "kind": 0,
+            "page": 1,
+            "usage": 1
+          }
+        ],
+        "report_key": {
+          "kind": "input",
+          "report_id": 2
+        },
+        "usage": 49
+      },
+      "kind": "raw_value",
+      "new": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          13,
+          32
+        ],
+        [
+          14,
+          64
+        ],
+        [
+          15,
+          -128
+        ]
+      ],
+      "new_report_sources": [],
+      "new_sources": {
+        "globals": [
+          [
+            "logical_max",
+            {
+              "length": 2,
+              "offset": 42
+            }
+          ],
+          [
+            "logical_min",
+            {
+              "length": 2,
+              "offset": 40
+            }
+          ],
+          [
+            "report_count",
+            {
+              "length": 2,
+              "offset": 46
+            }
+          ],
+          [
+            "report_id",
+            {
+              "length": 2,
+              "offset": 10
+            }
+          ],
+          [
+            "report_size",
+            {
+              "length": 2,
+              "offset": 44
+            }
+          ],
+          [
+            "usage_page",
+            {
+              "length": 2,
+              "offset": 34
+            }
+          ]
+        ],
+        "main": {
+          "length": 2,
+          "offset": 48
+        },
+        "usages": [
+          {
+            "length": 2,
+            "offset": 36
+          }
+        ]
+      },
+      "old": [
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          21,
+          32
+        ],
+        [
+          22,
+          64
+        ],
+        [
+          23,
+          -128
+        ]
+      ],
+      "old_report_sources": [],
+      "old_sources": {
+        "globals": [
+          [
+            "logical_max",
+            {
+              "length": 2,
+              "offset": 42
+            }
+          ],
+          [
+            "logical_min",
+            {
+              "length": 2,
+              "offset": 40
+            }
+          ],
+          [
+            "report_count",
+            {
+              "length": 2,
+              "offset": 46
+            }
+          ],
+          [
+            "report_id",
+            {
+              "length": 2,
+              "offset": 10
+            }
+          ],
+          [
+            "report_size",
+            {
+              "length": 2,
+              "offset": 44
+            }
+          ],
+          [
+            "usage_page",
+            {
+              "length": 2,
+              "offset": 34
+            }
+          ]
+        ],
+        "main": {
+          "length": 2,
+          "offset": 48
+        },
+        "usages": [
+          {
+            "length": 2,
+            "offset": 38
+          }
+        ]
+      },
+      "report_key": {
+        "kind": "input",
+        "report_id": 2
+      }
+    }
+  ],
+  "schema_version": 1,
+  "scope": {
+    "mode": "all",
+    "reports": [
+      {
+        "kind": "input",
+        "report_id": 2
+      }
+    ]
+  },
+  "sources": {
+    "new": {
+      "byte_length": 64,
+      "sha256": "5fdd24bbcfc66bf8fc2ebc29c33d2cdfab6508570d9017c4b929645da435aac8"
+    },
+    "old": {
+      "byte_length": 64,
+      "sha256": "8641a1658bc9b779a7d69166f5d4c9d2992101fc6085711868e72b8743015f8b"
+    }
+  },
+  "status": "different",
+  "tool": {
+    "name": "hidwire",
+    "version": "0.1.0a1"
+  },
+  "witness_semantics": "raw-extraction counterexamples; range labels check every scalar in the selected report, not physical device validity",
+  "witnesses": [
+    {
+      "differing_key": {
+        "page": 1,
+        "path": [
+          {
+            "kind": 1,
+            "page": 1,
+            "usage": 2
+          },
+          {
+            "kind": 0,
+            "page": 1,
+            "usage": 1
+          }
+        ],
+        "report_key": {
+          "kind": "input",
+          "report_id": 2
+        },
+        "usage": 48
+      },
+      "new_hash": "5fdd24bbcfc66bf8fc2ebc29c33d2cdfab6508570d9017c4b929645da435aac8",
+      "new_range_valid": true,
+      "new_value": 0,
+      "old_hash": "8641a1658bc9b779a7d69166f5d4c9d2992101fc6085711868e72b8743015f8b",
+      "old_range_valid": true,
+      "old_value": 1,
+      "report_key": {
+        "kind": "input",
+        "report_id": 2
+      },
+      "wire_hex": "0200010000"
+    },
+    {
+      "differing_key": {
+        "page": 1,
+        "path": [
+          {
+            "kind": 1,
+            "page": 1,
+            "usage": 2
+          },
+          {
+            "kind": 0,
+            "page": 1,
+            "usage": 1
+          }
+        ],
+        "report_key": {
+          "kind": "input",
+          "report_id": 2
+        },
+        "usage": 49
+      },
+      "new_hash": "5fdd24bbcfc66bf8fc2ebc29c33d2cdfab6508570d9017c4b929645da435aac8",
+      "new_range_valid": true,
+      "new_value": 1,
+      "old_hash": "8641a1658bc9b779a7d69166f5d4c9d2992101fc6085711868e72b8743015f8b",
+      "old_range_valid": true,
+      "old_value": 0,
+      "report_key": {
+        "kind": "input",
+        "report_id": 2
+      },
+      "wire_hex": "0200010000"
+    }
+  ]
+}

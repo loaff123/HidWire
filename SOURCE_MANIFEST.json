@@ -1,0 +1,329 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "bytes": 3069,
+      "path": ".github/workflows/tests.yml",
+      "sha256": "ee206e74c3f490e9d2e644fdbdbf032b321468e99baa81aa29651d80b7d2bf28"
+    },
+    {
+      "bytes": 1077,
+      "path": "LICENSE",
+      "sha256": "0a0b7b6d27b32bc69d093dabccec0ac93a9f37772d42551def83b1e61a818f30"
+    },
+    {
+      "bytes": 498,
+      "path": "MANIFEST.in",
+      "sha256": "63f906da4bbd4ba4f78d1c164411a355e842ab3b49681eb49540d567a7e60a6e"
+    },
+    {
+      "bytes": 7047,
+      "path": "README.md",
+      "sha256": "32f533d0432ef0f3cbc7f138f4947ab8db486d66cf5da48d95f89858444fb623"
+    },
+    {
+      "bytes": 7267,
+      "path": "docs/contract.md",
+      "sha256": "be46a68889e3aa36f5070b79480fc0cb06df573bc8cce3a638ec0e1fea2763f0"
+    },
+    {
+      "bytes": 10249,
+      "path": "docs/oracle-notes.md",
+      "sha256": "2ac4b299ad241a0e2fcb7e1fe571558fb3b9e39a71ee195124656871e1b86d58"
+    },
+    {
+      "bytes": 3361,
+      "path": "docs/proof.md",
+      "sha256": "726ac46f663224b7781fc0d7a8edf4b84ef9c46891e858c90eaac8e8263af4bf"
+    },
+    {
+      "bytes": 4504,
+      "path": "docs/usage.md",
+      "sha256": "e13afdd87b7401bc733c4198d2aa49b5d6325e15b47c4a6737ab47fef118982f"
+    },
+    {
+      "bytes": 7119,
+      "path": "docs/verification.md",
+      "sha256": "afb06c585b11c553b38d35041390761c0e67ed56879ae8f38b102b4d4e09d145"
+    },
+    {
+      "bytes": 928,
+      "path": "examples/README.md",
+      "sha256": "e3f7537bba8d44576b6499c8513afa5cb2f55c92882ad7e840b24f8916571099"
+    },
+    {
+      "bytes": 192,
+      "path": "examples/mouse-swapped.hex",
+      "sha256": "f3a1730e175c1b9cc66d0ed811a1aeb63586304e360da616ebb0354ac2763d42"
+    },
+    {
+      "bytes": 20078,
+      "path": "examples/xy-swap-comparison.json",
+      "sha256": "0c130d3bea6ec662232b61b9e4e837e747d3785a518b396ed7bb333cf968bd7c"
+    },
+    {
+      "bytes": 847,
+      "path": "fixtures/NOTICE.md",
+      "sha256": "799efd3c4cbf7e0023f368245cbcfd90b67837e3778c7d4b72178685cb3c9319"
+    },
+    {
+      "bytes": 1431,
+      "path": "fixtures/licenses/LICENSE-CircuitPython",
+      "sha256": "df3a94a60cdc7970f3f26d12c3aae020d02b8e7c16326e50f86bb58d53658072"
+    },
+    {
+      "bytes": 1142,
+      "path": "fixtures/licenses/LICENSE-Microsoft-HidTools",
+      "sha256": "c075a7fdbcff0157cf50a2c2b54c7190e36e0215ec5b9145988fdd1f9efb869b"
+    },
+    {
+      "bytes": 6045,
+      "path": "fixtures/manifest.json",
+      "sha256": "4b59e020da7d25cddfd93f81ac4c9b944038bc6fbb9c1e7fa141ac7821c385b5"
+    },
+    {
+      "bytes": 25,
+      "path": "fixtures/real/circuitpython-consumer-control.bin",
+      "sha256": "644862deff2b1fd2af03e6f137b1fa43d7dd0ce8df15084b30bde22607f4a657"
+    },
+    {
+      "bytes": 67,
+      "path": "fixtures/real/circuitpython-keyboard.bin",
+      "sha256": "17e28792f7b3c412bd2b49fdb80caa8c410457cfe0dd5be150e893c26e17c550"
+    },
+    {
+      "bytes": 64,
+      "path": "fixtures/real/circuitpython-mouse.bin",
+      "sha256": "8641a1658bc9b779a7d69166f5d4c9d2992101fc6085711868e72b8743015f8b"
+    },
+    {
+      "bytes": 50,
+      "path": "fixtures/real/waratah-mouse.bin",
+      "sha256": "630b3cebc8cc2db05afc886a7ea39cad9af2fd6a0c5c94ebc237233f44ee5a82"
+    },
+    {
+      "bytes": 4748,
+      "path": "fixtures/sources/circuitpython-report-descriptors.c",
+      "sha256": "7c7fdd1836617e2e090c3b98527e4a5081dfcef6c88f2d802f01eff2dad2f613"
+    },
+    {
+      "bytes": 8531,
+      "path": "fixtures/sources/waratah-readme.md",
+      "sha256": "b97d6aea3c3053bad08f48179d6eb2989ded8cb87305603c938fc399d2bbb06f"
+    },
+    {
+      "bytes": 649,
+      "path": "pyproject.toml",
+      "sha256": "69a46eae232b456f37860ed8700b61ce0d0a305c1cf8d5b04ea52a79e751f0a3"
+    },
+    {
+      "bytes": 2309,
+      "path": "scripts/verify_comparison_mutations.py",
+      "sha256": "f338c79da292b6a580fa32f869242c24db34a87db8f48fcbc1e8a6853ff251e7"
+    },
+    {
+      "bytes": 5038,
+      "path": "scripts/verify_mutations.py",
+      "sha256": "19f7f0312851b8652b5b580fb34451b59e7b7633e7150fe2c6cb004736aaedbd"
+    },
+    {
+      "bytes": 338,
+      "path": "src/hidwire/__init__.py",
+      "sha256": "98c37e3c85d7798cdf8b33bebe8c15911af306d389ed92d03dd93715c95d9441"
+    },
+    {
+      "bytes": 48,
+      "path": "src/hidwire/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "bytes": 2831,
+      "path": "src/hidwire/bytesource.py",
+      "sha256": "5f365caaee6abeee912287c14ac9e2705febbbfe61073a4244ec290604b00a0f"
+    },
+    {
+      "bytes": 9813,
+      "path": "src/hidwire/cli.py",
+      "sha256": "3c6d7d3209625c54d4014bff097e5f51bf4c648f3ab794a999871ac7abedd065"
+    },
+    {
+      "bytes": 7398,
+      "path": "src/hidwire/compare.py",
+      "sha256": "a8608dc3f6d10f967108b59a2b80dc54daff197f1f258177b2b14443ccdd3b27"
+    },
+    {
+      "bytes": 3077,
+      "path": "src/hidwire/decode.py",
+      "sha256": "d307f5cb1e0332aca1bb68f88d9cacf6148a065c2e7a4960f3e7308ebb82c467"
+    },
+    {
+      "bytes": 4332,
+      "path": "src/hidwire/model.py",
+      "sha256": "dfabe96a84d9e149ed04798bcef2c83b703bb8272f89c810c3930f1e12ff7aa1"
+    },
+    {
+      "bytes": 19503,
+      "path": "src/hidwire/parser.py",
+      "sha256": "5048c2a7cb306028af6e38b1575e607c228047b038c318b9bb886be30ae555b6"
+    },
+    {
+      "bytes": 4483,
+      "path": "src/hidwire/render.py",
+      "sha256": "3ec998af73729e5da40fdfc8121407f9ba37c22c4bf0db3a2df62a7ec7e4d8d1"
+    },
+    {
+      "bytes": 0,
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 697,
+      "path": "tests/helpers.py",
+      "sha256": "2724d48514e0f25a698bea0c32b522166d77e472bba920a6abe06b4530e853c9"
+    },
+    {
+      "bytes": 4305,
+      "path": "tests/test_bytesource.py",
+      "sha256": "69e857381487c91317273e678ec494cec50cb5cdd904b0d0501c7717e0edad08"
+    },
+    {
+      "bytes": 5355,
+      "path": "tests/test_cli.py",
+      "sha256": "23aefa9c8100184af5008b5e355bc3c4882b085f06cfc49d4ce37881e84e7a41"
+    },
+    {
+      "bytes": 4454,
+      "path": "tests/test_compare.py",
+      "sha256": "ba5a47397b1583ec76ae6c0544ee5db8d9bcd05e98de94b283cfadb1f1b60009"
+    },
+    {
+      "bytes": 1371,
+      "path": "tests/test_comparison_provenance.py",
+      "sha256": "5c7d94005a9227b6428d0025623937e9ca4f560bac256b61f71692ae093d1e47"
+    },
+    {
+      "bytes": 2287,
+      "path": "tests/test_diagnostic_resources.py",
+      "sha256": "690ffe718c862b3b8598659caf7ab9658f9d63cbf846682d7a4fa04bc6fd6081"
+    },
+    {
+      "bytes": 1769,
+      "path": "tests/test_diagnostic_sources.py",
+      "sha256": "1b17dafb72226c02f14453c9792c40aff8c1d5b44c124f166b4a79d4d5709b86"
+    },
+    {
+      "bytes": 13717,
+      "path": "tests/test_exhaustive.py",
+      "sha256": "9958bbc7616dd0d82bc1c79f554746dba14387f05dfe8051bcd3f32d33dc9e6c"
+    },
+    {
+      "bytes": 1696,
+      "path": "tests/test_large_artifact.py",
+      "sha256": "394321d4c92b92bee8f521e9b66b12593ae0eb13c9f4a953cec3218a60a21a45"
+    },
+    {
+      "bytes": 4240,
+      "path": "tests/test_parser_fields.py",
+      "sha256": "7f7a6d66777c701459b617bb7ece26615d5f5f97912ed584912df9f5b21cdcaa"
+    },
+    {
+      "bytes": 3969,
+      "path": "tests/test_parser_rejects.py",
+      "sha256": "23d167cc336dc4c87c79a7af213f32dcc03da141c346752a66ca68904f9c1102"
+    },
+    {
+      "bytes": 3417,
+      "path": "tests/test_parser_state.py",
+      "sha256": "16aa7639746c00f5c82ba93782753591cd0cfc102db1b7f75c339799c0552400"
+    },
+    {
+      "bytes": 1480,
+      "path": "tests/test_platform_boundary.py",
+      "sha256": "0d9883b4ebc1aec0c05826874ac60c4ef999f5ce970724281cd5567468f722f6"
+    },
+    {
+      "bytes": 19571,
+      "path": "tests/test_release_adversarial.py",
+      "sha256": "44406b087590b516f42c6d855a59ab6fbcdf1c9aa2a3ea331d7fefc16d4e81ae"
+    },
+    {
+      "bytes": 1216,
+      "path": "tests/test_resilience.py",
+      "sha256": "f69095dda2c6bab89c71cb73d91d7aaa367f8d95b98510c2d498dc9ae79ce339"
+    },
+    {
+      "bytes": 2163,
+      "path": "tests/test_resource_coverage.py",
+      "sha256": "acb65325b58448c6b1094630696d94027d7b69404f7c0fc86bafdef6ddb04443"
+    },
+    {
+      "bytes": 13116,
+      "path": "tests/test_review_adversarial.py",
+      "sha256": "28c5dbe5cdffd6e5aa054fc74a53a31a03de1d06b7cc387f8846343c09f80f9f"
+    },
+    {
+      "bytes": 3495,
+      "path": "tests/test_witness.py",
+      "sha256": "d862ba0360fc6cd9cf2ad6b1c06e897703d6537e465e016a5650a7095cd24dbb"
+    },
+    {
+      "bytes": 962,
+      "path": "tests/test_zero_data_items.py",
+      "sha256": "04a2259375012d6cb60f5d54d026aeadfe60d94fa0032a4f884c139db663a205"
+    },
+    {
+      "bytes": 0,
+      "path": "tests_oracle/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5714,
+      "path": "tests_oracle/adapter.py",
+      "sha256": "18ecefd812df00d62759e150f749fddbaac8aa871b84fc87e158945acd2e1f19"
+    },
+    {
+      "bytes": 4528,
+      "path": "tests_oracle/cases.py",
+      "sha256": "5beb24a9d445a92528363178298f1d18d3dc2224926a7818a017f7305ab2dcb4"
+    },
+    {
+      "bytes": 334,
+      "path": "tests_oracle/requirements.txt",
+      "sha256": "9f9c0a4a067e904f8de3ba00c76f8c105fb0615c2bf9be812a5d4c1c8f71e75f"
+    },
+    {
+      "bytes": 6114,
+      "path": "tests_oracle/test_adapter.py",
+      "sha256": "ae467a0282364ddf25e711a57d965bfedf608ac7abc0594594bb8d6404ca8964"
+    },
+    {
+      "bytes": 2554,
+      "path": "tests_oracle/test_fixtures.py",
+      "sha256": "12810d8183d876b992505963aae6d5c80265c76c5a60a78a3302be52b5fd99af"
+    },
+    {
+      "bytes": 10604,
+      "path": "tests_oracle/test_independent_metadata.py",
+      "sha256": "1ff7f5ea4b4ec2de163905c5cdd9f5986d68a10812bfbcaf046a447c4b2ae5d9"
+    },
+    {
+      "bytes": 8898,
+      "path": "tests_oracle/test_parser_differential.py",
+      "sha256": "9d6503b7538c86f0c8457264b89e8ecaa83667c5220d1d626698ada757e2b1ba"
+    },
+    {
+      "bytes": 2109,
+      "path": "tests_oracle/test_real_reports.py",
+      "sha256": "ec32d0f5fac21156004208b99caa23dbc5f93a2a1ceaeb8cf4fbc1cc056d4267"
+    },
+    {
+      "bytes": 9826,
+      "path": "tests_oracle/test_witnesses.py",
+      "sha256": "e28000eb40752ae54cb36b41a3ba429de0817d34a834e624d2dfc49d70a1e968"
+    }
+  ],
+  "project": "HidWire",
+  "schema_version": 1,
+  "scope": "All shipped source files except this manifest; generated sdist package metadata is additional.",
+  "version": "0.1.0a1"
+}
